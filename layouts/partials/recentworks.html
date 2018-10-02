@@ -1,6 +1,6 @@
 <div class="row section recentworks topspace">
 
-    <h2 class="section-title"><span>{{T "Recent_Works"}}</span></h2>
+    <h2 class="section-title"><span>{{ i18n "Recent_Works"}}</span></h2>
 
     <div class="thumbnails recentworks">
         {{ range $index, $area := .Site.Data.recentworks }}
@@ -8,7 +8,7 @@
                 <a class="thumbnail" href="{{ .url }}">
                     <span class="img">
                         <img src="{{ .image }}" alt="">
-                        <span class="cover"><span class="more">{{T "See_details" .}} &rarr;</span></span>
+                        <span class="cover"><span class="more">{{ i18n "See_details" .}} &rarr;</span></span>
                     </span>
                     <span class="title">{{ .name }}</span>
                 </a>
@@ -28,14 +28,14 @@
 
 <div class="row section recentworks topspace">
 
-    <h2 class="section-title"><span>{{T "Recent_Works"}}</span></h2>
+    <h2 class="section-title"><span>{{ i18n "Recent_Works"}}</span></h2>
 
     <div class="">
         {{ range where .Data.Pages "Section" "work" }}
             <div class="col-sm-6 col-md-3">
                 <h3 class="text-center">{{ .Title }}</h3>
                 <p>{{ .Summary }}</p>
-                <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">{{T "See_details"}}</a></p>
+                <p class="text-center"><a href="{{ .Permalink }}" class="btn btn-action">{{ i18n "See_details"}}</a></p>
             </div>
         {{ end }}
     </div>
