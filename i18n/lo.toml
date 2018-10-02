@@ -1,0 +1,23 @@
+[Services]
+  other = "ບໍລິການ"
+
+[Read_more]
+  other = "ລາຍລະອຽດ"
+
+[Recent_Works]
+  other = "ຜົນງານຜ່ານມາ"
+
+[See_details]
+  other = "ເບິ່ງລາຍລະອຽດ"
+
+[Copyright]
+  other = "ລິຂະສິດ"
+
+[Powered_by]
+  other = "ຖານລະບົບ"
+
+[Footer_Text1]
+  other = "ພາສາລາວ"
+
+[on]
+  other = "ເທິງ"

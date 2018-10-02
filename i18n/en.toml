@@ -1,0 +1,23 @@
+[Services]
+  other = "Services"
+
+[Read_more]
+  other = "Read more"
+
+[Recent_Works]
+  other = "Recent Works"
+
+[See_details]
+  other = "See details"
+
+[Copyright]
+  other = "Copyright"
+
+[Powered_by]
+  other = "Powered by"
+
+[Footer_Text1]
+  other = "English"
+
+[on]
+  other = "on"
